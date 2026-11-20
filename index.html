@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="پایش قیمت طلا، ارز، سکه و نقره">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+  <title>Gold Signal Pro</title>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div><div class="eyebrow">بازار طلا و ارز</div><h1>Gold Signal <span>Pro</span></h1></div>
+      <div class="live"><i></i><span id="connection">در حال بررسی</span></div>
+    </header>
+    <section class="hero">
+      <div><div class="eyebrow">وضعیت داده‌ها</div><h2 id="statusTitle">در انتظار اتصال منابع</h2>
+      <p id="statusText">قیمت ساختگی نمایش داده نمی‌شود. پس از اتصال API یا منابع معتبر، میانگین قیمت‌ها نمایش داده خواهد شد.</p></div>
+      <div class="refresh"><strong>۳۰</strong><small>ثانیه<br>بروزرسانی</small></div>
+    </section>
+    <section class="section-head"><h2>تابلوی قیمت‌ها</h2><span id="lastUpdate">هنوز بروزرسانی نشده</span></section>
+    <section id="prices" class="prices"></section>
+    <section class="section-head"><h2>سیگنال‌های بازار</h2><span class="muted">تحلیل پس از دریافت داده معتبر</span></section>
+    <section class="signals">
+      <article><div class="signal-icon sell">↓</div><div><h3>سیگنال فروش</h3><p>برای رتبه‌بندی دارایی‌های مناسب فروش، داده زنده و سابقه قیمت لازم است.</p></div></article>
+      <article><div class="signal-icon buy">↑</div><div><h3>سیگنال خرید</h3><p>پس از اتصال منابع، شرایط خرید بر اساس روند و اختلاف قیمت بررسی می‌شود.</p></div></article>
+    </section>
+    <footer><span>نسخه ۰.۲ آزمایشی</span><span id="sourceInfo">منابع: در انتظار اتصال</span></footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "Gold Signal Pro",
+  "short_name": "Gold Signal",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1118",
+  "theme_color": "#101820",
+  "icons": []
+}
